@@ -1,0 +1,47 @@
+1. Define the Base Class Shape:
+   - Attributes:
+     - double side1
+     - double side2
+   - Methods:
+     - input_data() to input the dimensions.
+     - virtual void compute_area() as an abstract function for calculating the area.
+
+2. Implement the input_data Method in Shape Class:
+   - Input:
+     - Input values for side1 and side2.
+   - Process:
+     - Initialize the attributes with the user-input dimensions.
+
+3. Implement the compute_area Method as an Abstract Function:
+   - Process:
+     - Declare compute_area as a virtual abstract function.
+
+4. Derive Triangle Class from Shape:
+   - Attributes:
+     - Inherits side1 and side2.
+   - Methods:
+     - Redefine compute_area for the triangle.
+
+5. Implement compute_area Method in Triangle Class:
+   - Process:
+     - Use the formula for the area of a triangle: Area = 0.5 * base * height.
+
+6. Derive Rectangle Class from Shape:
+   - Attributes:
+     - Inherits side1 and side2.
+   - Methods:
+     - Redefine compute_area for the rectangle.
+
+7. Implement compute_area Method in Rectangle Class:
+   - Process:
+     - Use the formula for the area of a rectangle: Area = length * breadth.
+
+8. Create Instances and Use Dynamic Binding:
+   - Create pointers of type Shape.
+   - Dynamically allocate memory for Triangle and Rectangle objects using the base class pointers.
+   - Call input_data and compute_area methods using dynamic binding.
+
+9. Example Usage:
+   - Prompt the user to choose between a triangle and a rectangle.
+   - Input dimensions.
+   - Display the calculated area.

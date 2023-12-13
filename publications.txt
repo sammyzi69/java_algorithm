@@ -1,0 +1,62 @@
+Commonalities:
+1. **Instance Variables:**
+   - All three classes (Publication, Book, Magazine) have common instance variables: `Title`, `Price`, and `Copies`.
+
+2. **Method:**
+   - They all have a common method named `saleCopy`, which likely represents the sale of copies.
+
+Differences:
+
+For Book Class:
+1. **Additional Instance Variable:**
+   - `author`: Represents the author of the book.
+
+2. **Additional Method:**
+   - `orderCopies()`: Represents ordering additional copies of the book.
+
+For Magazine Class:
+1. **Additional Instance Variables:**
+   - `orderQty`: Represents the quantity ordered.
+   - `currentIssue`: Represents the current issue of the magazine.
+
+2. **Additional Method:**
+   - `receiveIssue()`: Represents receiving a new issue of the magazine.
+
+Pseudocode:
+
+Class Publication:
+    Instance Variables:
+        Title
+        Price
+        Copies
+
+    Method:
+        saleCopy(soldCopies)
+
+Class Book extends Publication:
+    Additional Instance Variable:
+        author
+
+    Additional Method:
+        orderCopies(orderedCopies)
+
+Class Magazine extends Publication:
+    Additional Instance Variables:
+        orderQty
+        currentIssue
+
+    Additional Method:
+        receiveIssue(receivedCopies)
+
+Program:
+    // Create instances of Book and Magazine
+    book1 = new Book("Book Title", 19.99, 100, "Author Name")
+    magazine1 = new Magazine("Magazine Title", 5.99, 500, 100, "Current Issue")
+
+    // Perform operations
+    book1.orderCopies(50)
+    magazine1.receiveIssue(200)
+    
+    // Display total sale of publication
+    totalSale = book1.saleCopy(30) + magazine1.saleCopy(150)
+    display totalSale

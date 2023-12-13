@@ -1,0 +1,44 @@
+1. Start
+
+2. Define a Student class with attributes: Student_id, name, Roll_no, Class, marks, and address.
+
+3. Define functions for the following operations:
+   a. Create Database:
+      i. Prompt the user to enter data for five students.
+      ii. Write the student data to a file (e.g., "student_database.txt").
+
+   b. Display Database:
+      i. Read the student data from the file.
+      ii. Display the data for all five students.
+
+   c. Clear Records:
+      i. Open the file in write mode to clear its contents.
+
+   d. Modify Record:
+      i. Prompt the user to enter the Student_id of the record to be modified.
+      ii. Search for the record with the given Student_id.
+      iii. If found, prompt the user to enter the new data for that record.
+      iv. Update the record in the file.
+
+   e. Search Record:
+      i. Prompt the user to enter the Student_id to search for.
+      ii. Search for the record with the given Student_id.
+      iii. If found, display the details of that student.
+      iv. If not found, display a message indicating that the record was not found.
+
+4. Menu-driven Program:
+   a. Display a menu with options for each operation:
+      i. Create Database
+      ii. Display Database
+      iii. Clear Records
+      iv. Modify Record
+      v. Search Record
+      vi. Exit
+
+   b. Prompt the user to choose an option from the menu.
+
+   c. Perform the corresponding operation based on the user's choice.
+
+   d. Repeat the menu until the user chooses to exit.
+
+5. End

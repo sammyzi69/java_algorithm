@@ -1,0 +1,55 @@
+Algorithm for Common Functionalities in Vehicles:
+
+1. Gear Change:
+   - The changeGear method should take an integer parameter representing the new gear.
+   - Update the current gear of the vehicle with the provided value.
+
+2. Speed Up:
+   - The speedUp method should take an integer parameter representing the speed increment.
+   - Increase the current speed of the vehicle by the provided speed increment.
+
+3. Apply Brakes:
+   - The applyBrakes method should take an integer parameter representing the brake force.
+   - Decrease the current speed of the vehicle by the provided brake force.
+
+Bicycle Class Implementation:
+
+1. Gear Change (Bicycle):
+   - Print a message indicating that the bicycle is changing gears.
+   - Update the current gear of the bicycle.
+
+2. Speed Up (Bicycle):
+   - Print a message indicating that the bicycle is speeding up.
+   - Increase the current speed of the bicycle.
+
+3. Apply Brakes (Bicycle):
+   - Print a message indicating that the brakes are being applied on the bicycle.
+   - Decrease the current speed of the bicycle.
+
+Bike Class Implementation:
+
+1. Gear Change (Bike):
+   - Print a message indicating that the bike is changing gears.
+   - Update the current gear of the bike.
+
+2. Speed Up (Bike):
+   - Print a message indicating that the bike is speeding up.
+   - Increase the current speed of the bike.
+
+3. Apply Brakes (Bike):
+   - Print a message indicating that the brakes are being applied on the bike.
+   - Decrease the current speed of the bike.
+
+Car Class Implementation:
+
+1. Gear Change (Car):
+   - Print a message indicating that the car is changing gears.
+   - Update the current gear of the car.
+
+2. Speed Up (Car):
+   - Print a message indicating that the car is speeding up.
+   - Increase the current speed of the car.
+
+3. Apply Brakes (Car):
+   - Print a message indicating that the brakes are being applied on the car.
+   - Decrease the current speed of the car.

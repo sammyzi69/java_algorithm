@@ -1,0 +1,52 @@
+1. Define the Employee Class:
+Attributes:
+Emp_name
+Emp_id
+Address
+Mail_id
+Mobile_no
+Methods:
+Constructor to initialize attributes.
+
+2. Implement the calculate_salary Method in Employee Class:
+Input:
+Basic Pay (BP)
+Output:
+Gross and Net Salary
+Process:
+Calculate DA (97% of BP), HRA (10% of BP), PF (12% of BP), and staff club fund (0.1% of BP).
+Calculate gross salary as the sum of BP, DA, and HRA.
+Calculate net salary as gross salary minus PF and staff club fund.
+Return the gross and net salary.
+
+3. Create Subclasses Inheriting from Employee:
+a. Programmer Class:
+Additional Attribute:
+programming_language
+Inheritance:
+Inherit from Employee.
+b. TeamLead Class:
+Additional Attribute:
+team_size
+Inheritance:
+Inherit from Employee.
+c. AssistantProjectManager Class:
+Additional Attribute:
+project_assigned
+Inheritance:
+Inherit from Employee.
+d. ProjectManager Class:
+Additional Attribute:
+projects_managed
+Inheritance:
+Inherit from Employee.
+
+4. Add Basic Pay (BP) to All Subclasses:
+Include Basic Pay as a member variable in all the subclasses.
+
+5. Override calculate_salary Method in Each Subclass:
+In each subclass, override the calculate_salary method to incorporate the specific calculations for DA, HRA, PF, and staff club fund.
+
+6. Generate Pay Slips:
+Create instances of each subclass.
+Call the generate_pay_slip method for each instance to display the pay slip with gross and net salary.

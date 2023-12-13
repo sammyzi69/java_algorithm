@@ -1,0 +1,22 @@
+1. Start
+
+2. Accept input from the user:
+   a. Prompt the user to enter Num1.
+   b. Prompt the user to enter Num2.
+
+3. Try Block:
+   a. Convert Num1 and Num2 to integers. If a Number Format Exception occurs, catch it.
+   b. If Num2 is zero, throw an Arithmetic Exception.
+
+4. Arithmetic Operation:
+   a. If Num2 is not zero, perform the division: result = Num1 / Num2.
+   b. If an Array Index Out Of Bounds exception occurs, catch it.
+
+5. Display the result of the division.
+
+6. Catch Block:
+   a. If a Number Format Exception occurred, display an error message for invalid input.
+   b. If an Arithmetic Exception occurred, display an error message for division by zero.
+   c. If an Array Index Out Of Bounds exception occurred, display an error message for array index issues.
+
+7. End

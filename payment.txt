@@ -1,0 +1,27 @@
+1. Start
+
+2. Define a PaymentStrategy interface with a method for processing payment:
+   a. Interface: PaymentStrategy
+      i. Method: processPayment(amount)
+
+3. Create concrete implementations for each payment strategy:
+   a. CreditCardPayment class implements PaymentStrategy:
+      i. Override processPayment(amount) with credit card payment logic.
+
+   b. PayPalPayment class implements PaymentStrategy:
+      i. Override processPayment(amount) with PayPal payment logic.
+
+   c. BitCoinPayment class implements PaymentStrategy:
+      i. Override processPayment(amount) with BitCoin payment logic.
+
+4. Create a ShoppingCart class that utilizes the PaymentStrategy:
+   a. Properties: List of items, selectedPaymentStrategy.
+   b. Method: checkout() - Calls the processPayment() method of the selectedPaymentStrategy.
+
+5. In the client code (e.g., main program or test class):
+   a. Instantiate a ShoppingCart.
+   b. Add items to the shopping cart.
+   c. Set the payment strategy based on the user's choice (Credit Card, PayPal, or BitCoin).
+   d. Call the checkout() method on the ShoppingCart, which, in turn, invokes the selected payment strategy.
+
+6. End

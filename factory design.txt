@@ -1,0 +1,34 @@
+1. Start
+
+2. Define a Car class with common properties and methods:
+   a. Properties: carType, accessories, makeup.
+   b. Method: assembleCar().
+
+3. Create subclasses for different car types:
+   a. Hatchback class:
+      i. Inherit from the Car class.
+      ii. Override the assembleCar() method with specific steps for Hatchback.
+
+   b. Sedan class:
+      i. Inherit from the Car class.
+      ii. Override the assembleCar() method with specific steps for Sedan.
+
+   c. SUV class:
+      i. Inherit from the Car class.
+      ii. Override the assembleCar() method with specific steps for SUV.
+
+4. Create a CarFactory class:
+   a. Method: buildCar(carType) - Returns an instance of the specified car type.
+      i. If carType is "Hatchback," return a new instance of Hatchback.
+      ii. If carType is "Sedan," return a new instance of Sedan.
+      iii. If carType is "SUV," return a new instance of SUV.
+      iv. If carType is unknown, return null or handle accordingly.
+
+5. Create a TestFactoryPattern class:
+   a. Instantiate a CarFactory.
+   b. Use the CarFactory to build different types of cars:
+      i. Call buildCar("Hatchback") and assemble the Hatchback.
+      ii. Call buildCar("Sedan") and assemble the Sedan.
+      iii. Call buildCar("SUV") and assemble the SUV.
+
+6. End

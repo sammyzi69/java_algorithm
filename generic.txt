@@ -1,0 +1,31 @@
+1. Start
+
+2. Initialize an empty collection (e.g., List, Set, or any other collection class).
+
+3. Accept input from the user:
+   a. Prompt the user to enter the size of the collection.
+   b. Populate the collection with elements provided by the user.
+
+4. Counting Even Numbers:
+   a. Initialize a counter variable for even numbers.
+   b. Iterate through each element in the collection.
+   c. If an element is an even number, increment the even counter.
+
+5. Counting Odd Numbers:
+   a. Initialize a counter variable for odd numbers.
+   b. Iterate through each element in the collection.
+   c. If an element is an odd number, increment the odd counter.
+
+6. Counting Prime Numbers:
+   a. Initialize a counter variable for prime numbers.
+   b. Iterate through each element in the collection.
+   c. Check if the element is a prime number; if yes, increment the prime counter.
+
+7. Counting Palindromes:
+   a. Initialize a counter variable for palindromes.
+   b. Iterate through each element in the collection.
+   c. Check if the element is a palindrome; if yes, increment the palindrome counter.
+
+8. Display the counts for each category (even, odd, prime, palindrome).
+
+9. End

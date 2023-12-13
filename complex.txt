@@ -1,0 +1,43 @@
+Class Definition:Complex class for representing complex numbers.
+
+Data Members:real_part and imaginary_part for the real and imaginary parts.
+
+Default Constructor:Initializes real_part and imaginary_part to 0.
+
+Parameterized Constructor:Takes real and imaginary values as parameters and sets the corresponding data members.
+
+Arithmetic Operations:
+
+	add: Returns a new Complex object representing the sum of two complex numbers.
+	subtract: Returns a new Complex object representing the difference between two complex numbers.
+	multiply: Returns a new Complex object representing the product of two complex numbers.
+	Pseudocode
+
+Class Complex:
+    Data Members:
+        real_part: Real part of the complex number
+        imaginary_part: Imaginary part of the complex number
+
+    Methods:
+        Constructor Complex():
+            real_part = 0
+            imaginary_part = 0
+
+        Constructor Complex(real, imaginary):
+            real_part = real
+            imaginary_part = imaginary
+
+        Method add(other_complex):
+            new_real = real_part + other_complex.real_part
+            new_imaginary = imaginary_part + other_complex.imaginary_part
+            Return new Complex(new_real, new_imaginary)
+
+        Method subtract(other_complex):
+            new_real = real_part - other_complex.real_part
+            new_imaginary = imaginary_part - other_complex.imaginary_part
+            Return new Complex(new_real, new_imaginary)
+
+        Method multiply(other_complex):
+            new_real = (real_part * other_complex.real_part) - (imaginary_part * other_complex.imaginary_part)
+            new_imaginary = (real_part * other_complex.imaginary_part) + (imaginary_part * other_complex.real_part)
+            Return new Complex(new_real, new_imaginary)
